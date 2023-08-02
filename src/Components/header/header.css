@@ -1,0 +1,71 @@
+/* Header.css */
+
+.header {
+  /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    overflow: hidden;
+    font-family: Cambria;
+    /* padding: 10px; */
+  }
+  .center-header{
+    direction: flex;
+    flex-direction: column; 
+  }
+  .logo{
+    position: relative;
+    left:0px;
+    float:left;
+    width: 30%; /* Adjust the size of the logo as needed */
+    height: auto;
+  }
+  
+  .company-name {
+    font-size: 24px;
+    
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .icons {
+    position: relative;
+    top:0px;
+    right:0px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .icon{
+    width:5%;
+    /* display: flex; */
+    /* flex-direction: flex; */
+    padding : 5px;
+  }
+  .icon-column{
+    position: relative;
+    float:right;
+    right:-50px;
+  }
+
+  .icon-username{
+    position: relative;
+    right:0px;
+    font-size: 10px;
+  }
+  .icon-details{
+    position: relative;
+    right:0px;
+    font-size: 10px;
+  }
+  
+  /* Example: If using Font Awesome for icons */
+  /* You need to include the Font Awesome CSS in your index.html file */
+  /* Replace 'fa' with the appropriate prefix for your version of Font Awesome */
+  .icons i {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  

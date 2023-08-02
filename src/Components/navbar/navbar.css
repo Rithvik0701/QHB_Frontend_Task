@@ -1,0 +1,36 @@
+/* Navbar.css */
+
+.navbar {
+  background: #327291;
+  height:40px;
+  width: 100%;
+  font-family: Cambria;
+  color: #fff;
+  text-shadow: 2px 1px #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: 800;
+  /* flex-grow: 0; */
+}
+  .navbar-container {
+    max-width: 960px;
+    height: 65px;
+    padding: 12px 12px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 100%;
+    flex-grow: 0;
+  }
+  .navbar-item {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .navbar-item:hover {
+    background-color: rgb(200, 201, 209);
+  }
+  
+  /* You can further customize the styles to your preference */
+  

@@ -1,0 +1,84 @@
+.menu-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria;
+    width: 100%;
+}
+
+.menu-item{
+    position: relative;
+    width: 16.66%;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 70px;
+    margin-left: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    color: #002060;
+}
+.menu-item{
+background-color :#224D62;
+color: #fff;   
+box-shadow: inset 0.2em 0.2em 0.2em 0 rgb(0, 0, 0), inset -0.2em -0.2em 0.2em 0 rgb(93, 92, 92) , 2px 2px 5px rgb(57, 57, 57) ;
+
+/* box-shadow: 6px 6px inset #000; */
+}
+.select-menu{
+    position: relative;
+    width: 16.66%;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 70px;
+    margin-left: 10px;
+    border: 1px solid black;
+    /* color: #002060; */
+    color: #1cef43;
+    
+}
+.select-menu:hover{
+background-color :#224D62;
+color: #fff;   
+box-shadow: inset 0.2em 0.2em 0.2em 0 rgb(0, 0, 0), inset -0.2em -0.2em 0.2em 0 rgb(93, 92, 92) , 2px 2px 5px rgb(57, 57, 57) ;
+/* box-shadow: 6px 6px inset #000; */
+}
+
+
+.menu-heading{
+    font-family: Cambria;
+    font-weight:bold;
+}
+.menu-image{
+    position: absolute;
+    left: 2px;
+    bottom: 2px;
+    width: 40%;
+}
+.menu-item:hover .menu-image {
+    bottom: 5px;
+}
+.select-menu:hover .menu-image {
+    bottom: 5px;
+}
+.select-menu:hover .menu-data {
+    color:#E8EC0A;
+}
+.menu-item:hover .menu-data {
+    color:#E8EC0A;
+}
+.menu-data{
+    position: absolute;
+    bottom: 10px;
+    font-weight: 700;
+    /* color:#E8EC0A;     */
+    left: 40%;
+}
+.menu-number{
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-weight:bold;
+}
+
