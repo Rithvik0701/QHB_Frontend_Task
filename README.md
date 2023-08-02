@@ -1,3 +1,10 @@
+# Preview of Frontend Page
+
+![Screenshot (4444)](https://github.com/Rithvik0701/QHB_Frontend_Task/assets/78132405/016ea0a4-0993-4cc1-af49-72b3f5d11528)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
